@@ -33,12 +33,12 @@ public class Main {
         Dev devPriscila = new Dev();
         devPriscila.setNome("Priscila");
         devPriscila.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Priscila: " + devPriscila.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos Priscila: \n " + devPriscila.getConteudosInscritos());
         devPriscila.progredir();
         devPriscila.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos de Priscila: " + devPriscila.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos de Priscila: " + devPriscila.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos de Priscila: \n " + devPriscila.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos de Priscila: \n " + devPriscila.getConteudosConcluidos());
         System.out.println("XP: " + devPriscila.calcularTotalXp());
 
         System.out.println("______________________________________");
@@ -46,13 +46,13 @@ public class Main {
         Dev devRodolfo = new Dev();
         devRodolfo.setNome("Rodolfo");
         devRodolfo.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Rodolfo: " + devRodolfo.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos Rodolfo: \n" + devRodolfo.getConteudosInscritos());
         devRodolfo.progredir();
         devRodolfo.progredir();
         devRodolfo.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos de Rodolfo: " + devRodolfo.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos de Rodolfo: " + devRodolfo.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos de Rodolfo: \n" + devRodolfo.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos de Rodolfo: \n" + devRodolfo.getConteudosConcluidos());
         System.out.println("XP: " + devRodolfo.calcularTotalXp());
 
 
